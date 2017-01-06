@@ -1,10 +1,99 @@
 body {
-  background-color: black;
-  background-image: url("../img/back4.gif");
-  background-repeat: no-repeat;
-  height: 726px;
-  width: 1280px;
+ background-color: black;
+ margin: 200px;
+ background-image: url("../img/back4.gif");
+ background-repeat: no-repeat;
+ background-position: center;
+
+}
 
 h1 {
-  color: blue;
+  color: #C6BDBB;
+  font-size: 73px;
+  font-family:  'Fjalla One', sans-serif;
+  text-shadow: 0 0 1px white;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  border: 3px solid white;
+  width: 120px;
+  height: auto;
+  text-align: center;
+  padding: 2px;
+
+}
+
+footer {
+  float: right;
+  position: sticky;
+}
+
+.box-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+.row{
+  height: 50%;
+}
+
+.row #about {
+
+}
+
+.row p {
+  padding: 5px;
+  color: white;
+  font-family:  'Open Sans Condensed', sans-serif;
+}
+
+.row ul {
+  color: white;
+  font-family:  'Open Sans Condensed', sans-serif;
+}
+
+.row ol {
+  color: white;
+  font-family:  'Open Sans Condensed', sans-serif;
+}
+
+.photo {
+  height: 150px;
+  width: auto;
+  border-radius: 360px;
+  margin: 50px;
+}
+
+.message {
+  height: 90px
+  width: auto;
+}
+
+a img {
+  margin: 50px;
+  height: 30px;
+  width: auto;
+}
+
+.secret {
+  visibility: hidden;
+}
+
+.info:hover .secret {
+  visibility:visible;
+}
+
+#about {
+  padding-bottom: 100px;
+}
+
+#work {
+  padding-top: 325px;
+}
+
+#contat {
+
 }

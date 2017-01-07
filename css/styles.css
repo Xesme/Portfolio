@@ -4,7 +4,6 @@ body {
  background-image: url("../img/back4.gif");
  background-repeat: no-repeat;
  background-position: center;
-
 }
 
 h1 {
@@ -13,6 +12,7 @@ h1 {
   font-family:  'Fjalla One', sans-serif;
   text-shadow: 0 0 1px white;
   text-align: center;
+  padding-bottom: 250px;
 }
 
 h2 {
@@ -22,12 +22,17 @@ h2 {
   height: auto;
   text-align: center;
   padding: 2px;
-
 }
 
 footer {
   float: right;
   position: sticky;
+}
+
+a img {
+  margin: 50px;
+  height: 30px;
+  width: auto;
 }
 
 .box-background {
@@ -41,7 +46,6 @@ footer {
 }
 
 .row #about {
-
 }
 
 .row p {
@@ -72,12 +76,6 @@ footer {
   width: auto;
 }
 
-a img {
-  margin: 50px;
-  height: 30px;
-  width: auto;
-}
-
 .secret {
   visibility: hidden;
 }
@@ -94,6 +92,6 @@ a img {
   padding-top: 325px;
 }
 
-#contat {
+#contact {
 
 }
